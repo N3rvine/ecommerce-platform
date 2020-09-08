@@ -20,8 +20,10 @@
         opacity: 0.9;
         transition: opacity 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
-}
 
+
+    
+}
 
 &.large{
     height: 380px;
@@ -69,5 +71,5 @@
     font-weight: lighter;
     color: #3d3d3d;
 
-}
+    }
 }
