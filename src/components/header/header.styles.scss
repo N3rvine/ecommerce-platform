@@ -21,6 +21,12 @@
         .option{
             padding:10px 15px;
             cursor: pointer;
+            border:1px solid white;
+
+            &:hover{
+                border:1px solid black;
+                transition: border-color 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+            }
         }
     }
 }
